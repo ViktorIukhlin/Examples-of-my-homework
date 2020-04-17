@@ -28,5 +28,5 @@ void main()
 		arrayfilling(arr,SIZE);
 		printarray(arr, SIZE);
 
-
+system("pause")
 }
