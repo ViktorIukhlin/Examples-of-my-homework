@@ -26,6 +26,7 @@ int main() {
         }
         cout << distance(numbers.cbegin(), lowerBoundIt) + 1 << '\n';
     }
+return 0;
 }
 
 
