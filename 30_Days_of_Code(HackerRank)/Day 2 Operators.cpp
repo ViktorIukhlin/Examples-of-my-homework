@@ -4,7 +4,7 @@ using namespace std;
 
 // Complete the solve function below.
 void solve(double meal_cost, int tip_percent, int tax_percent) {
-    int answer;double tip, tax;
+    double tip, tax;
     tip = meal_cost * (tip_percent / 100.);
     tax = meal_cost * (tax_percent / 100.);
 
