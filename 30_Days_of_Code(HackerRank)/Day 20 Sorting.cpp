@@ -10,9 +10,9 @@ int main() {
         cin >> a[a_i];
     }
 
-    for (int i = 0; i < n; i++) {                // Track number of elements swapped during a single array traversal (Отслеживание количества элементов, замененных во время обхода одного массива)
+    for (int i = 0; i < n; i++) {                // Track number of elements swapped during a single array traversal 
 
-        for (int j = 0; j < n - 1; j++) {        // Swap adjacent elements if they are in decreasing order (Поменяйте местами соседние элементы, если они в порядке убывания)
+        for (int j = 0; j < n - 1; j++) {        // Swap adjacent elements if they are in decreasing order 
             
             if (a[j] > a[j + 1]) {
                 swap(a[j], a[j + 1]);
@@ -21,7 +21,7 @@ int main() {
         }
 
         
-        if (numberOfSwaps == 0) {                // If no elements were swapped during a traversal, array is sorted (Если во время обхода не было ни одного элемента, массив сортируется)
+        if (numberOfSwaps == 0) {                // If no elements were swapped during a traversal, array is sorted 
             break;  
         }
     }
